@@ -42,6 +42,6 @@ for column in master_df.columns:
     print("Unique values:", unique_values)
     print()
 
-# Export master DataFrame to a CSV file
-master_df.to_csv('master_dataset.csv', index=False)
+# # Export master DataFrame to a CSV file
+# master_df.to_csv('master_dataset.csv', index=False)
 
