@@ -1,5 +1,5 @@
 # User files
-mergeFilesAndScript/data/barcelona-matches.py
+mergeFilesAndScript/subsets/barcelona-matches.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
