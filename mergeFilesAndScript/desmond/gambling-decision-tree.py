@@ -1,3 +1,12 @@
+#!/usr/bin/env python
+"""
+This script creates a decision tree for determining the result
+of a football match based on betting odds.
+
+Author: Desmond Stular
+  Date: April 6, 2024
+"""
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
