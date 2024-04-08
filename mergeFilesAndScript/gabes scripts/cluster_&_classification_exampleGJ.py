@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from mlxtend.frequent_patterns import apriori, association_rules
+# from mlxtend.frequent_patterns import apriori, association_rules
 from sklearn.cluster import KMeans
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -99,3 +99,4 @@ plt.title('Feature Importance')
 plt.xlabel('Importance')
 plt.ylabel('Feature')
 plt.show()
+print(feature_importance)
